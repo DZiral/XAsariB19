@@ -183,14 +183,11 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>1000</lifeExpectancy>
-      <leatherColor>(128, 0, 128)</leatherColor>
-      <leatherCommonalityFactor>0.001</leatherCommonalityFactor>
-      <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValueFactor>3</leatherMarketValueFactor>
+      <useLeatherFrom>Human</useLeatherFrom>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <bloodDef>FilthBloodAsari</bloodDef>	
-      <meatColor>(128, 0, 128)</meatColor>
+      <useMeatFrom>Human</useMeatFrom>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
