@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <!-- ============================ Asari Base ========================== -->
 
@@ -8,10 +8,17 @@
     <race>Alien_Asari_Blue</race>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Civil</backstoryCategory>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <backstoryCategories>
+			<li>Civil</li>
+  	</backstoryCategories>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
   </PawnKindDef>
   
@@ -30,12 +37,12 @@
       <max>900</max>
     </apparelMoney>
     <weaponMoney>
-      <min>0</min>
-      <max>250</max>
+      <min>150</min>
+      <max>350</max>
     </weaponMoney>
     <weaponTags>
       <li>Gun</li>
-      <li>Melee</li>
+      <li>NonNeolithicOnlyMelee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -216,7 +223,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -297,7 +304,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -367,7 +374,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -439,7 +446,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -467,4 +474,4 @@
     <race>Alien_Asari_Green</race>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>
