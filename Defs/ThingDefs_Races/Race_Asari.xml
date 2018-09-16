@@ -33,7 +33,7 @@
 </ThingDef>
   
   
-  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn" Name="Alien_Asari_Base">
+  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn" Name="Alien_Asari_Base" Abstract="True">
   <defName>Alien_Asari_Base</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>

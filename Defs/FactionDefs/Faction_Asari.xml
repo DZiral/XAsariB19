@@ -6,8 +6,9 @@
 		<label>asari union</label>
     <description>A colony of the Asari Union, who have been here for quite while and choose to stay out of the afairs of humans most of the time.\n\nThey are concerned with the practical matters of trade, trust, and survival.</description>
     <pawnsPlural>asari</pawnsPlural>
-	<fixedName>Asari Union</fixedName>
+  	<fixedName>Asari Union</fixedName>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -82,6 +83,24 @@
           <AsariCommandoElite02>170</AsariCommandoElite02>
           <AsariCommandoElite03>170</AsariCommandoElite03>
           <AsariCommandoElite04>170</AsariCommandoElite04>
+        </options>
+      </li>
+            <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <AsariColonist01>50</AsariColonist01>
+          <AsariColonist02>50</AsariColonist02>
+          <AsariColonist03>50</AsariColonist03>
+          <AsariSecurityGuard01>90</AsariSecurityGuard01>
+          <AsariSecurityGuard02>90</AsariSecurityGuard02>
+          <AsariSecurityGuard03>90</AsariSecurityGuard03>
+          <AsariMatriarch>250</AsariMatriarch>
+          <AsariRecruit01>100</AsariRecruit01>
+          <AsariRecruit02>100</AsariRecruit02>
+          <AsariRecruit03>100</AsariRecruit03>
+          <AsariHuntresses01>130</AsariHuntresses01>
+          <AsariHuntresses02>130</AsariHuntresses02>
+          <AsariHuntresses03>130</AsariHuntresses03>
         </options>
       </li>
 	  <li>
