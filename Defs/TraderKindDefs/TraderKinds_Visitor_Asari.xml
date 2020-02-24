@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <TraderKindDef>
@@ -62,7 +62,7 @@
           <max>2</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_BuyWeirdOrganic" />
+<!--      <li Class="StockGenerator_BuyWeirdOrganic" />-->
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Cloth</li>
