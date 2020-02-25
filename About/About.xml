@@ -3,7 +3,23 @@
 	<name>RimEffect - Asari of the Rims</name>
 	<author>Helixien - Xen</author>
 	<url>https://ludeon.com/forums/index.php?topic=29115.0</url>
-	<targetVersion>0.19.0</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+
+
 	<description>A long time ago, when humanity began to spread across the stars, genetic engineering was used to create a species which was before only seen in games. The Asari! 
 It is lost to history what exactly happened and how the Asari Union came to be, but now, thousands of years later, the Asari are just as wide spread in the galaxy as humanity. 
 
