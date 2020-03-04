@@ -49,8 +49,8 @@
              <chance>50</chance>
           </li>
            <li>
-			<defName>Gay</defName>
-			<chance>45</chance>
+			<defName>Bisexual</defName>
+			<chance>100</chance>
            </li>
         </forcedRaceTraitEntries>
 			<alienPartGenerator>
