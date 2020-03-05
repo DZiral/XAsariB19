@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="XAsariXFactionBase">
+		<factionIconPath>World/WorldObjects/AsariFactionBase2</factionIconPath>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+  
+	<FactionDef Parent="XAsariXFactionBase">
+		<defName>AsariPlayerColony</defName>
+		<label>Asari Colony</label>
+		<description>Your own community.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AsariColonist01</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>"Offworld"</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/AsariFactionBase2</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>AsariHair</li>
+		</hairTags>
+		<apparelStuffFilter>
+		<thingDefs>
+			<li>Synthread</li>
+		</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<FactionDef Parent="XAsariXFactionBase">
+		<defName>AsariPlayerColonyTribal</defName>
+		<label>Asari Tribal</label>
+		<description>Asari Tribal Start.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AsariColonist01</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/AsariFactionBase2</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>AsariHair</li>
+		</hairTags>
+		<apparelStuffFilter>
+		<thingDefs>
+			<li>Synthread</li>
+		</thingDefs>
+		</apparelStuffFilter>
+		<colorSpectrum>
+			<li>(0, 0.437, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+
+</Defs>
